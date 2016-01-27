@@ -6,3 +6,4 @@ Guests do not have the ability to post, edit, or delete.
 People with profiles can edit and delete their own content.
 Anyone can comment. 
 This is a simple project for people to post articles, and for others to be able to comment on said articles.
+This site uses a mysql database for storing content.

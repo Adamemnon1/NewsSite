@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Simple New Site</title>
+    </head>
+    <body>
+		
+		<style scoped type = "text/css">
+			form {text-align: center; font-size: 2em;}
+			img.displayed {display : block;
+						margin-left : auto;
+						margin-right: auto;}
+			img.resize {width: 480px;
+						height: 480px;}
+			
+			
+		</style>
+		
+		<img class = "displayed" src = "img.jpg" alt = "no more news">
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+        <form action="redirect.php" method="POST">
+			<label>
+				Click <input type="submit" value="Sign Up"/> to register as a new user.
+			</label>
+		</form>
+		<br>
+		<br>
+        <form action="login.php" method="POST">
+            Username: <input type="text" name="username" placeholder="Please enter your username." />
+            <br/>
+            Password: <input type="password" name="password"/>
+            <br/>
+            <input type="submit" value="Login"/>
+        </form>
+		<br>
+		<br>
+        <form action="guestlogin.php" method="POST">
+            To login as a guest:
+            <input type="submit" value="Guest Login"/>
+        </form>
+    </body>
+</html>
